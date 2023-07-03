@@ -1,4 +1,4 @@
-#Парсин сайта https://dummyjson.com/products/1 и вывод значения "description"
+#Парсинг сайта https://dummyjson.com/products/1 и вывод значения "description"
 import requests
 r = requests.get ("https://dummyjson.com/products/1")
 json = r.json()
