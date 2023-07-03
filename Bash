@@ -1,2 +1,2 @@
-#Парсин сайта https://dummyjson.com/products/1 и вывод значения "description"
+#Парсинг сайта https://dummyjson.com/products/1 и вывод значения "description"
 curl -s https://dummyjson.com/products/1 | jq '.["description"]' | tr  -d \"
